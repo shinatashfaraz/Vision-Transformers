@@ -1,6 +1,10 @@
 import kagglehub
 
 # Download latest version
-path = kagglehub.dataset_download("csdepartmentfood/persian-food-20mehrtrain80test20")
+path1 = kagglehub.dataset_download("csdepartmentfood/persian-food-20mehrtrain80test20")
 
-print("Path to dataset files:", path)
+path2 = kagglehub.dataset_download("csdepartmentfood/images")
+
+print("Path to dataset files:", path1)
+
+print("Path to dataset files:", path2)
